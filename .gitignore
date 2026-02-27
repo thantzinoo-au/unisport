@@ -1,4 +1,3 @@
-# Dependencies
 node_modules/
 package-lock.json
 .pnp
@@ -9,7 +8,6 @@ package-lock.json
 !.yarn/releases
 !.yarn/versions
 
-# Build outputs
 dist/
 dist-ssr/
 .next/
@@ -18,14 +16,11 @@ build/
 *.tsbuildinfo
 next-env.d.ts
 
-# Environment variables
 .env*
 
-# Uploads (user-generated content — persisted via Docker volume)
 backend/public/uploads/*
 !backend/public/uploads/.gitkeep
 
-# Logs
 logs/
 *.log
 npm-debug.log*
@@ -34,10 +29,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Testing
 coverage/
 
-# Misc
 .DS_Store
 *.pem
 *.local
@@ -47,10 +40,8 @@ coverage/
 *.sln
 *.sw?
 
-# Editor
 .vscode/*
 !.vscode/extensions.json
 .idea/
 
-# Vercel
 .vercel

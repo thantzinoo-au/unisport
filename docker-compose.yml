@@ -25,7 +25,8 @@ services:
       - NODE_ENV=production
       - MONGODB_URI=${MONGODB_URI}
       - JWT_SECRET=${JWT_SECRET}
-      - CORS_ORIGIN=${CORS_ORIGIN:-https://your-domain.com}
+      - ADMIN_SETUP_PASS=${ADMIN_SETUP_PASS}
+      - CORS_ORIGIN=${CORS_ORIGIN:-https://your-domain.com} # add your domain here
     volumes:
       - uploads:/app/public/uploads
     restart: unless-stopped

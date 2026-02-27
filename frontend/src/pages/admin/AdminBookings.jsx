@@ -78,10 +78,9 @@ const headerSx = {
 export default function AdminBookings() {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [actionLoading, setActionLoading] = useState(null); // booking _id being actioned
-  const [confirm, setConfirm] = useState(null); // { booking, action: "Cancelled"|"Completed" }
+  const [actionLoading, setActionLoading] = useState(null);
+  const [confirm, setConfirm] = useState(null);
 
-  // Filters
   const [statusFilter, setStatusFilter] = useState("All");
   const [dateFilter, setDateFilter] = useState("");
   const [nameFilter, setNameFilter] = useState("");
