@@ -6,8 +6,8 @@ A full-stack campus sports facility booking web application that lets students b
 
 | Name  
 | ----------------------
-| ![Thant Zin Oo](https://github.com/thantzinoo-au?tab=repositories)
-| ![Shoon Moe Aung](https://github.com/Shoon-moe-aung?tab=repositories)
+| **[Thant Zin Oo](https://github.com/thantzinoo-au?tab=repositories)**
+| **[Shoon Moe Aung](https://github.com/Shoon-moe-aung?tab=repositories)**
 
 ## Tech Stack
 
